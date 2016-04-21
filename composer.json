@@ -1,0 +1,21 @@
+{
+	"name": "liftkit/geolocation",
+	"description": "LiftKit geolocation library",
+	"license": "LGP-2.1",
+	"authors": [
+		{
+			"name": "Ryan Williams",
+			"email": "rwilliams@stream9.net",
+			"homepage": "https://www.stream9.net",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"LiftKit\\": "src/"
+		}
+	},
+	"require": {
+		"liftkit/curl": "dev-master"
+	}
+}
