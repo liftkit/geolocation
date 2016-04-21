@@ -16,6 +16,6 @@
 		}
 	},
 	"require": {
-		"liftkit/curl": "dev-master"
+		"liftkit/curl": "^1.0"
 	}
 }

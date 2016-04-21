@@ -4,12 +4,12 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "51c5aeb0f7a251e7b5aad030c2212002",
-    "content-hash": "7447a1b7c70560a33ff3bc297ebd57b2",
+    "hash": "becebd6169055ae5f9a9ab71990ce4b3",
+    "content-hash": "cbc91c94e060d2c867f4f070b597cc6e",
     "packages": [
         {
             "name": "liftkit/curl",
-            "version": "dev-master",
+            "version": "v1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liftkit/curl.git",
@@ -46,9 +46,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "liftkit/curl": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
