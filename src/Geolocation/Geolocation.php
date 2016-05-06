@@ -10,20 +10,29 @@
 
 	class Geolocation
 	{
-		const IP_API_PREFIX = 'http://ip-api.com/json/';
+		const IP_API_PREFIX  = 'http://ip-api.com/json/';
+		const PRO_API_PREFIX = 'http://pro.ip-api.com/json/';
 		protected $curl;
+		private $apiKey;
 
 
-		public function __construct ()
+		public function __construct ($apiKey = null)
 		{
-			$this->curl = new Curl();
+			$this->curl   = new Curl();
+			$this->apiKey = $apiKey;
 		}
 
 
 		public function getLocationFromIp ($ipAddress)
 		{
+			if ($this->apiKey) {
+				$url = self::PRO_API_PREFIX . $ipAddress . '?key=' . $this->apiKey;
+			} else {
+				$url = self::IP_API_PREFIX . $ipAddress;
+			}
+
 			$response = $this->curl->clear()
-				->url(self::IP_API_PREFIX . $ipAddress)
+				->url($url)
 				->execute();
 
 			$responseData = json_decode($response, true);
