@@ -4,21 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "becebd6169055ae5f9a9ab71990ce4b3",
     "content-hash": "cbc91c94e060d2c867f4f070b597cc6e",
     "packages": [
         {
             "name": "liftkit/curl",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/liftkit/curl.git",
-                "reference": "383256d5e76601b31c6ca6dec37c1257c1dd005c"
+                "reference": "f091ee069c7d06300c7c80b54ffb83d88fcaa3f2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/liftkit/curl/zipball/383256d5e76601b31c6ca6dec37c1257c1dd005c",
-                "reference": "383256d5e76601b31c6ca6dec37c1257c1dd005c",
+                "url": "https://api.github.com/repos/liftkit/curl/zipball/f091ee069c7d06300c7c80b54ffb83d88fcaa3f2",
+                "reference": "f091ee069c7d06300c7c80b54ffb83d88fcaa3f2",
                 "shasum": ""
             },
             "type": "library",
@@ -29,7 +28,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "LGP-2.1"
+                "LGPL-2.1-only"
             ],
             "authors": [
                 {
@@ -40,7 +39,7 @@
                 }
             ],
             "description": "LiftKit cURL library",
-            "time": "2016-04-21 14:02:02"
+            "time": "2018-01-29T14:51:07+00:00"
         }
     ],
     "packages-dev": [],
